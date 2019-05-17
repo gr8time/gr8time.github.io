@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*-- navbar breaks (2 rows) from 768-827 width --*/
+
+
 html, body{
 	height: 100%;
 	width: 100%;
@@ -13,6 +17,9 @@ html, body{
 }
 .nav-link{
 	font-size: 1.1em !important;
+}
+.nav-list{
+	color: #fbaf2c;
 }
 .carousel-inner img{
 	width: 100%;
@@ -127,10 +134,10 @@ hr.light-100{
 	margin-top: .8rem;
 	margin-bottom: 1rem;
 }
-.navbar-brand a{
+/*.navbar-brand a{
 	max-width: 50%;
 }
-
+*/
 
 
 /*--- Zeb's additions --*/
@@ -190,6 +197,22 @@ ul#nav-list {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23555' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+/*attempting to limit height of carousel
+
+.carousel-inner img{
+	max-height:77vh;
+	max-width:77vh;
+	overflow: hidden;
+	display: cover;
+	overflow: hidden;
+}*/
+
+/*#slides{
+	max-height: 75vh;
+	overflow: auto;
+}*/
+
+
 .video-container {
 position: relative;
 padding-bottom: 56.25%;
@@ -236,9 +259,18 @@ body{
 	z-index: 1;
 	box-shadow: 0px -7px 15px rgba(0,0,0,.2);
 }
+
+.connect{
+	position: relative;
+	z-index: 1;
+	box-shadow: 0px -7px 15px rgba(0,0,0,.2);
+	background-color: rgba(255,255,255,.1);
+}
 .logo-footer{
 	filter: invert(100%);
 }
+
+
 
 
 /*---Media Queries --*/
