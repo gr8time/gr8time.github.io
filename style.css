@@ -49,6 +49,15 @@ html, body{
 	background-color: #fbaf2c;
 	border: 1px solid #fdd878;
 }
+.btn-outline-red{
+	color: white;
+	border-color: #563d7c;
+	background-color: #fb6435cc;
+}
+.btn-outline-red:hover{
+	background-color: #fbaf2c;
+	border: 1px solid #fdd878;
+}
 .jumbotron{
 	padding: 1rem;
 	border-radius: 0;
@@ -124,6 +133,12 @@ hr.light {
 	margin-top: .8rem;
 	margin-bottom: 1rem;
 }
+.hr-strong{
+	border-top: 3px solid #6f6f6f;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
 
 footer a{
 	color: #d5d5d5;
@@ -141,6 +156,9 @@ hr.light-100{
 
 
 /*--- Zeb's additions --*/
+.box-shadow{
+	box-shadow: 0px 5px 5px rgb(0,0,0,.2);
+}
 .navbar{
 	background-image: url("img/navbg.jpg");
 	box-shadow: 0px 5px 5px rgb(0,0,0,.2);
@@ -263,8 +281,8 @@ body{
 .connect{
 	position: relative;
 	z-index: 1;
-	box-shadow: 0px -7px 15px rgba(0,0,0,.2);
-	background-color: rgba(251,175,44,.1);
+	/*box-shadow: 0px -7px 15px rgba(0,0,0,.2);*/
+	background-color: #eeeeeeaa;
 }
 /*.h2-connect{
 	background-image:url("img/gif/connect.gif");
@@ -280,6 +298,34 @@ body{
 	padding: 0rem !important;
 	margin: 0rem !important;
 }
+.nomargin{
+	margin: 0rem !important;
+}
+.row-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content {
+  height: 100%;
+}
+.jumbo-listen{
+	/*background-image: url(img/shroomrock.jpg);*/
+}
+.collapse.show{
+	display: flex;
+}
+#gacollapse{
+	/*background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);*/
+	border: 5px solid #aaaaaaaa;
+	border-top: none;
+	border-radius: 15px;
+	background: #eeeeee;
+	box-shadow: 1px 5px 5px rgb(0,0,0,.2);
+	
+}
+
 
 
 /*---Media Queries --*/
