@@ -124,7 +124,22 @@ html, body{
 .fa-envelope{
 	color: #D44638;
 }
-.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-spotify:hover, .fa-envelope:hover{
+.fa-itunes{
+	color: rgb(10,132,255);
+}
+.fa-bandcamp{
+	color: #629aa9;
+}
+.fa-google-play{
+	color: #3BCCFF;
+}
+.fa-amazon{
+	color: #146EB4;
+}
+.fa-soundcloud{
+	color: #ff8800;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-spotify:hover, .fa-envelope:hover, .fa-itunes:hover, .fa-bandcamp:hover, .fa-google-play:hover, .fa-amazon:hover, .fa-soundcloud:hover{
 	color: #fbaf2c;
 }
 footer {
@@ -357,7 +372,10 @@ body{
 	margin-left: auto;
 	filter: invert(58%) sepia(9%) saturate(418%) hue-rotate(167deg) brightness(94%) contrast(88%);
 }
-
+.streaming{
+	font-size: 2rem;
+	padding: 2rem;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a{
@@ -416,14 +434,15 @@ body{
   .navbar-brand{
 	  max-width:50%;
   }
+  .nav-link{
+	display: flex;
+	justify-content: center;
+  }
 }
 /*#nav-list{
 	margin:auto;
 }*/
-.nav-link{
-	display: flex;
-	justify-content: center;
-}
+
 
 
 
