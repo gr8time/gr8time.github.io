@@ -504,7 +504,10 @@ body{
 }
 @media (max-width: 450px) {
 	.div-footer{
-		font-size: .7rem;
+		font-size: 75%;
+	}
+	.social-footer a{
+		padding: 0 5px;
 	}
 }
 /*#nav-list{
