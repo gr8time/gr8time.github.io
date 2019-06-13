@@ -383,7 +383,7 @@ body{
 	
 }
 .social-footer a {
-	padding: 0 5%;
+	padding: 0 10px;
 	width: 50%;
 	margin: auto;
 }
@@ -499,6 +499,13 @@ body{
 	display: flex;
 	justify-content: center;
   }
+
+  
+}
+@media (max-width: 450px) {
+	.div-footer{
+		font-size: .7rem;
+	}
 }
 /*#nav-list{
 	margin:auto;
