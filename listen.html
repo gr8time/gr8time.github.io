@@ -52,7 +52,7 @@
       <section class="jumbotron jumbo-listen text-center nomargin box-shadow">
         <div class="container-fluid">
           <h1 class="jumbotron-heading">Listen to Great Time</h1>
-          <p class="lead text-muted"><i>Highly Playlistable</i></p>
+          <p class="lead text-muted"><i>Choose your favorite!</i></p>
           <p>
             <a href="http://www.smarturl.it/Rushin" target="_blank" class="btn btn-primary my-2">Latest Release</a>
             <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
@@ -75,7 +75,7 @@
                       <a href="http://www.smarturl.it/Rushin" target="_blank" class="btn btn-sm btn-primary">Listen</a>
                       <a href="https://youtu.be/BDdEhbzWDPs" target="_blank" class="btn btn-sm btn-outline-secondary btn-outline-red">Watch</a>
                     </div>
-                    <small class="text-muted">3 mins</small>
+                    <small class="text-muted">July 2019</small>
                   </div>
                 </div>
               </div>
@@ -91,13 +91,13 @@
                       <a href="http://www.smarturl.it/ThanktheWeekend" target="_blank" class="btn btn-sm btn-primary">Listen</a>
                       <!--<a href="https://youtu.be/0CQFAHc369U" target="_blank" class="btn btn-sm btn-outline-secondary">Watch</a>-->
                     </div>
-                    <small class="text-muted">4 mins</small>
+                    <small class="text-muted">October 2018</small>
                   </div>
                 </div>
               </div>
             </div>
 			<!--Great Album-->
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="greatalbum">
               <div class="card mb-4 box-shadow h-100">
                 <img class="card-img-top" src="img/ga/ga1yr.jpg" alt="Great Time - Great Album">
                 <div class="card-body">
@@ -105,9 +105,9 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a href="http://www.hyperurl.co/GreatAlbum" target="_blank" class="btn btn-sm btn-primary">Listen</a>
-                      <button type="button" class="btn btn-sm btn-outline-secondary btn-outline-red" data-toggle="collapse" data-target="#gacollapse" aria-expanded="false">Show All</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary btn-outline-red" data-toggle="collapse" data-target="#gacollapse" aria-expanded="false" id="greatalbum-btn">Show All</button>
                     </div>
-                    <small class="text-muted">43 mins</small>
+                    <small class="text-muted">April 2018</small>
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@
 				<div class="card-body">
 					<p class="card-text">04&nbsp;&nbsp;&#x7c;&#x7c;&nbsp;&nbsp;<b>Treebeet</b>
 					<br>
-					<small class="text-muted"><a href="http://www.justinpollmann.com" target="_blank" class="text-muted">Art:Justin Pollmann</a></small></p>
+					<small class="text-muted"><a href="http://www.justinpollmann.com" target="_blank" class="text-muted">Art: Justin Pollmann</a></small></p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group ">
                     <a href="http://www.smarturl.it/Rushin" target="_blank" class="btn btn-sm btn-primary">Listen</a>
@@ -362,7 +362,7 @@
               </div>
             </div>
 			<div class="col-12">
-				<a href="#gacollapse" type="button" class="btn btn-primary btn-lg btn-block">Back to top</a>
+				<a href="#greatalbum" type="button" class="btn btn-primary btn-lg btn-block">Back to top</a>
 			</div>
 		  </div>
 		
@@ -375,7 +375,7 @@
 
     </main>
 <footer class="footer-sticky align-items-center justify-content-around p-1">
-	<div class="d-flex container-fluid h-100 div-footer">
+	<div class="d-flex container-fluid h-100 div-footer justify-content-center">
 	  <span class="text-muted pr-3">Follow // Listen // Chat</span>
 	  <div class="d-flex social-footer">
 	    <a href="http://smarturl.it/GreatTimeIG" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -383,6 +383,10 @@
 		<a href="http://smarturl.it/GreatTimeSpotify" target="_blank"><i class="fab fa-spotify"></i></a>
 		<a href="http://youtube.com/greattime" target="_blank"><i class="fab fa-youtube"></i></a>
 		<a href="http://smarturl.it/GreatTimeTw" target="_blank"><i class="fab fa-twitter"></i></a>
+		<a href="#footer-email" role="button" data-toggle="collapse" data-target="#footer-email"><i class="far fa-envelope"></i></a>
+		<div id="#footer-email" class="collapse" aria-expanded="false">
+		  <span class="text-muted pr-3">greattimeband2012@gmail.com</span>
+		</div>
 	  </div>
 	  <!--<img class="img-footer" width="60" height="25" src="img/gr8tm.png">-->
 	</div>
