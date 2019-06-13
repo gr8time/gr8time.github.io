@@ -509,6 +509,9 @@ body{
 	.social-footer a{
 		padding: 0 5px;
 	}
+	.text-footer{
+		font-size: 90%;
+	}
 }
 /*#nav-list{
 	margin:auto;
