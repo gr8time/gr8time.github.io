@@ -562,8 +562,8 @@ a.nostyle:link, a.nostyle:visited {
 		font-size: 90%;
 	}
 	.navbar-nav li {
-	padding-right: 10px;
-	font-size: 90%;
+	padding-right: 7px;
+	font-size: 85%;
 	}
 }
 /*#nav-list{
