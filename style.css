@@ -31,6 +31,17 @@ html, body{
 	color: #fbaf2c;
 	width: 100%;
 }
+.navbar-collapse.collapsing, .navbar-collapse.show{
+	text-align: center !important;
+	margin: auto !important;
+	display: inline-block;
+}
+.navbar-collapse.collapsing ul, .navbar-collapse.show ul{
+	margin: auto;
+}
+
+
+
 .carousel-inner img{
 	width: 100%;
 	height: 100%;
@@ -221,7 +232,7 @@ hr.light-100{
 .navbar-brand{
 	/*box-shadow: 5px 5px 5px rgb(0,0,0,.2); */
 	transition: .337s ease;
-	pointer-events: none;
+	pointer-events: auto;
 }
 .brand-trigger:hover .navbar-brand{
 	transform:rotate(360deg);
