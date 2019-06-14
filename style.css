@@ -38,6 +38,9 @@ html, body{
 }
 .navbar-collapse.collapsing ul, .navbar-collapse.show ul{
 	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: around;
 }
 
 
@@ -464,12 +467,27 @@ a.nostyle:link, a.nostyle:visited {
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (min-width: 2000px){
+	.nav-item{
+		font-size: 120%;
+	}
+}
+@media (max-width: 850px) {
   .social a{
 	  font-size: 4em;
 	  padding: 2rem;
   }
+  .nav-item{
+	  font-size:90%;
   }
+}
+@media (max-width: 810px){
+	.navbar-nav li {
+	padding-right: 15px;
+	font-size: 85%;
+	}
+	
+}
 @media (max-width: 768px) {
   .carousel-caption h1{
 	font-size: 220%;
@@ -492,6 +510,13 @@ a.nostyle:link, a.nostyle:visited {
   .p-jumbo{
 	  font-size:169%;
   }
+  
+}
+@media (max-width: 767px){
+	.navbar-nav li {
+	padding-right: 20px;
+	font-size: 110%;
+	}
 }
 @media (max-width: 576px) {
   .carousel-caption h1{
@@ -518,13 +543,11 @@ a.nostyle:link, a.nostyle:visited {
   .btn-jumbo{
 	  font-size: 75%;
   }
-  .navbar-brand{
+  .brand-trigger{
 	  max-width:50%;
   }
-  .nav-link{
-	display: flex;
-	justify-content: center;
-  }
+  
+  
 
   
 }
@@ -538,11 +561,14 @@ a.nostyle:link, a.nostyle:visited {
 	.text-footer{
 		font-size: 90%;
 	}
+	.navbar-nav li {
+	padding-right: 10px;
+	font-size: 90%;
+	}
 }
 /*#nav-list{
 	margin:auto;
 }*/
-
 
 
 
