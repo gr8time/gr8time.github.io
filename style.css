@@ -401,6 +401,7 @@ body{
 	bottom: 0;
 	width: 100%;
 	padding: 0 auto 0 auto !important;
+	z-index: 37;
 }
 .social-footer{
 	height: 100%;
@@ -424,7 +425,17 @@ body{
 	font-size: 2rem;
 	padding: 2rem;
 }
-
+.cloudpuffs{
+	width: 100vw;
+	height: 720px;
+	background: url("img/cloudpuffs.jpg") left center;
+	animation: play 1s steps(12) infinite;
+}
+@keyframes play{
+	100%{
+		background-position: -15360px;
+	}
+}
 
 .card-img-top{
 	transition: .5s ease;
