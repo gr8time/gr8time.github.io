@@ -13,6 +13,7 @@ html, body{
 .navbar{
 	padding: .8rem;
 	background-image: url("img/navbg.jpg");
+	background-size: cover;
 	box-shadow: 0px 5px 5px rgb(0,0,0,.2);
 }
 .navbar-nav li {
@@ -352,6 +353,7 @@ height: 100%;
 body{
 	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
 	background-image: url(img/skyseamless.jpg);
+	background-size: contain;
 	background-repeat: repeat;
 }
 .p-jumbo{
@@ -490,7 +492,9 @@ a.nostyle:link, a.nostyle:visited {
     cursor: pointer;
 }
 
-
+.maincontain{
+	max-width: 1337px;
+}
 
 
 
