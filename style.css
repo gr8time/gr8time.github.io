@@ -10,6 +10,8 @@ html, body{
 	color: #222;
 	cursor: grab;
 }
+
+/* Navbar */
 .navbar{
 	padding: .8rem;
 	background-image: url("img/navbg.jpg");
@@ -76,25 +78,6 @@ html, body{
 	display: inline-block;
 	text-align: center;
 }
-
-
-
-
-
-
-.navbar-collapse2.collapsing, .navbar-collapse2.show{
-	
-}
-.navbar-collapse2.collapsing ul, .navbar-collapse2.show ul{
-	display:block !important;
-}
-
-
-
-
-
-
-
 
 
 
@@ -186,6 +169,11 @@ html, body{
 	font-size: 4.5em;
 	padding: 3rem;
 }
+
+
+
+/* Icon styling */
+
 .fa-facebook{
 	color: #3b5998;
 	transition: .737s ease;
@@ -239,6 +227,10 @@ html, body{
 	color: #fbaf2c;
 	transform: scale(2);
 }
+
+
+
+
 footer {
 	background-color: #f3f3f3aa;
 	color: #d5d5d5;
@@ -298,6 +290,9 @@ hr.light-100{
 
 .white{
 	color: white;
+}
+.black{
+	color: black;
 }
 .carousel-indicators li{
 	background-color: rgba(50,50,50,.5);
@@ -491,12 +486,26 @@ a.nostyle:link, a.nostyle:visited {
     cursor: pointer;
 }
 
-.maincontain{
+.mw1337{
 	max-width: 1337px;
 }
-
-
-
+.banner{
+	position: relative;
+}
+.banner-social{
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	font-size: 2rem;
+	color: black;
+}
+.banner-social a{
+	padding: 0 10px;
+	opacity: .73;
+}
+.banner-social a:hover{
+	opacity: 1;
+}
 
 
 
@@ -513,6 +522,14 @@ a.nostyle:link, a.nostyle:visited {
 @media (min-width: 2000px){
 	.nav-item{
 		font-size: 120%;
+	}
+}
+@media (min-width: 1000px){
+	.banner{
+		max-height: 700px;
+		width: auto;
+		overflow: hidden;
+		size: cover;
 	}
 }
 @media (max-width: 850px) {
