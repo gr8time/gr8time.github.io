@@ -606,7 +606,11 @@ a.nostyle:link, a.nostyle:visited {
   .brand-trigger{
 	  max-width:50%;
   }
-  
+  .banner-social{
+		font-size: 1.8rem;
+		
+	}
+
   
 
   
@@ -625,6 +629,7 @@ a.nostyle:link, a.nostyle:visited {
 	padding-right: 7px;
 	font-size: 85%;
 	}
+	
 }
 /*#nav-list{
 	margin:auto;
