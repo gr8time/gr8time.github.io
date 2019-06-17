@@ -295,6 +295,10 @@ hr.light-100{
 	color: #fb6435;
 	background-color: #fb6435;
 }
+.gt8cc{
+	color: #fb6435cc;
+	background-color: #fb6435cc;
+}
 .rainbow{
 	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
 }
