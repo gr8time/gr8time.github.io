@@ -271,6 +271,34 @@ hr.light-100{
 	box-shadow: 0px 5px 5px rgb(0,0,0,.2);
 }
 
+/* colors */
+.white{
+	color: white;
+}
+.black{
+	color: black;
+}
+.gt1{
+	color: #fbaf2c;
+	background-color: #fbaf2c;
+}
+.gt3{
+	color: #f36f98;
+	background-color: #f36f98;
+}
+.gt5{
+	color: #9e94bc;
+	background-color: #9e94bc;
+}
+.gt8{
+	color: #fb6435;
+	background-color: #fb6435;
+}
+.rainbow{
+	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
+}
+
+
 .jumbotron{
 	/*background-image: url('img/jumbo1.jpg');*/
 	/*background-color: #454545;*/
@@ -288,12 +316,7 @@ hr.light-100{
 	margin: 0 auto;
 }
 
-.white{
-	color: white;
-}
-.black{
-	color: black;
-}
+
 .carousel-indicators li{
 	background-color: rgba(50,50,50,.5);
 }
@@ -419,25 +442,7 @@ body{
 	box-shadow: 1px 5px 5px rgb(0,0,0,.2);
 	
 }
-.footer-sticky{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	padding: 0 auto 0 auto !important;
-	z-index: 37;
-}
-.social-footer{
-	height: 100%;
-}
-.social-footer a {
-	padding: 0 10px;
-	width: 50%;
-	margin: auto;
-}
-.div-footer{
-	padding: 0 auto 0 auto !important;
-	margin: 0 auto !important;
-}
+
 .img-footer{
 	float: right;
 	margin-left: auto;
@@ -509,8 +514,30 @@ a.nostyle:link, a.nostyle:visited {
 	cursor: text;
 	transition: 1s ease;
 }
-
-
+.footer-sticky{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 0 auto 0 auto !important;
+	z-index: 37;
+}
+.social-footer{
+	height: 100%;
+}
+.social-footer a {
+	padding: 0 10px;
+	width: 50%;
+	margin: auto;
+}
+.div-footer{
+	padding: 0 auto 0 auto !important;
+	margin: 0 auto !important;
+}
+.card-watch{
+	margin-bottom: 2rem;
+	border: none;
+	outline: none;
+}
 
 
 
