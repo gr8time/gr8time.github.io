@@ -121,6 +121,7 @@ html, body{
 .btn-outline-red{
 	color: white;
 	border-color: #563d7c;
+	border-color: #fb6435cc;
 	background-color: #fb6435cc;
 }
 .btn-outline-red:hover{
@@ -417,6 +418,10 @@ body{
 }
 .nomargin{
 	margin: 0rem !important;
+}
+.nooutline{
+	border: none;
+	outline: none;
 }
 .row-flex {
   display: -webkit-box;
