@@ -107,6 +107,10 @@ html, body{
 	transition: .15s ease;
 }
 .btn:hover{
+	transform: scale(1.02);
+	z-index: 2;
+}
+.btn-listen:hover{
 	transform: scale(1.2);
 	z-index: 2;
 }
@@ -374,8 +378,9 @@ height: 100%;
 }
 
 body{
-	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
+	//background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
 	background-image: url(img/skyseamless.jpg);
+	background-color: white;
 	background-size: contain;
 	background-repeat: repeat;
 }
@@ -551,10 +556,76 @@ a.nostyle:link, a.nostyle:visited {
 
 
 
+/* Colorcycle */
 
+.colorcycle{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	//filter: blur(37px);
+	animation: colorcycle 16s ease-in-out infinite;
+}
+.colorcycle-1{
+	background-color: #fbaf2c;
+	animation-delay: 0s;
+	z-index: -2;
+	
+}
+.colorcycle-2{
+	background-color: #8ad3e0;
+	animation-delay: 2s;
+	z-index: -3;
+}
+.colorcycle-3{
+	background-color: #f36f98;
+	animation-delay: 4s;
+	z-index: -4;
+}
+.colorcycle-4{
+	background-color: #eecc90;
+	animation-delay: 6s;
+	z-index: -5;
+}
+.colorcycle-5{
+	background-color: #9e94bc;
+	animation-delay: 8s;
+	z-index: -6;
+}
+.colorcycle-6{
+	background-color: #ea8d4d;
+	animation-delay: 10s;
+	z-index: -7;
+}
+.colorcycle-7{
+	background-color: #5db1b5;
+	animation-delay: 12s;
+	z-index: -8;
+}
+.colorcycle-8{
+	background-color: #fb6435;
+	animation-delay: 14s;
+	z-index: -9;
+}
+.colorcycle-9{
+	background-color: #fdd878;
+	animation-delay: 16s;
+	z-index: -10;
+}
 
-
-
+@keyframes colorcycle {
+	0%{
+		opacity: 1;
+	}
+	11%,99% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
 
