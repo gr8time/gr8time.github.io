@@ -639,6 +639,7 @@ a.nostyle:link, a.nostyle:visited {
 	position: absolute;
 	top:0;
 	left:0;
+	height: 70%;
 }
 
 
