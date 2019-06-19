@@ -512,6 +512,9 @@ a.nostyle:link, a.nostyle:visited {
 }
 .banner{
 	position: relative;
+	max-height: 70vh;
+	width: auto;
+	overflow: hidden;
 }
 .banner-social{
 	position: absolute;
@@ -655,21 +658,20 @@ a.nostyle:link, a.nostyle:visited {
 
 
 
-
 /*---Media Queries --*/
 @media (min-width: 2000px){
 	.nav-item{
 		font-size: 120%;
 	}
 }
-@media (min-width: 1000px){
+/*@media (min-width: 1000px){
 	.banner{
-		max-height: 700px;
+		max-height: 70vh;
 		width: auto;
 		overflow: hidden;
 		size: cover;
 	}
-}
+}*/
 @media (max-width: 850px) {
   .social a{
 	  font-size: 4em;
