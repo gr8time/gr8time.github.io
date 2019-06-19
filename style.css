@@ -565,8 +565,8 @@ a.nostyle:link, a.nostyle:visited {
 	z-index: -1;
 	width: 100%;
 	height: 100%;
-	//filter: blur(37px);
-	animation: colorcycle 16s ease-in-out infinite;
+	//filter: blur(5px);
+	animation: colorcycle 18s ease-in-out infinite;
 }
 .colorcycle-1{
 	background-color: #fbaf2c;
@@ -619,7 +619,7 @@ a.nostyle:link, a.nostyle:visited {
 	0%{
 		opacity: 1;
 	}
-	11%,99% {
+	11%,88% {
 		opacity: 0;
 	}
 	100% {
