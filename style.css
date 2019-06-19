@@ -633,6 +633,7 @@ a.nostyle:link, a.nostyle:visited {
 
 .rushin{
 	background-image: url("img/rushinbg.jpg");
+	background-size: cover;
 }
 
 
