@@ -635,7 +635,11 @@ a.nostyle:link, a.nostyle:visited {
 	background-image: url("img/rushinbg.jpg");
 	background-size: cover;
 }
-
+#rushinlisten{
+	position: absolute;
+	top:0;
+	left:0;
+}
 
 
 
