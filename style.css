@@ -288,26 +288,51 @@ hr.light-100{
 }
 .gt1{
 	color: #fbaf2c;
-	background-color: #fbaf2c;
+	//background-color: #fbaf2c;
+}
+.gt2{
+	color: #8ad3e0;
+	//background-color: #8ad3e0;
 }
 .gt3{
 	color: #f36f98;
-	background-color: #f36f98;
+	//background-color: #f36f98;
+}
+.gt4{
+	color: #eecc90;
+	//background-color: #eecc90;
 }
 .gt5{
 	color: #9e94bc;
-	background-color: #9e94bc;
+	//background-color: #9e94bc;
+}
+.gt6{
+	color: #ea8d4d;
+	//background-color: #ea8d4d;
+}
+.gt7{
+	color: #5db1b5;
+	//background-color: #5db1b5;
 }
 .gt8{
 	color: #fb6435;
-	background-color: #fb6435;
+	//background-color: #fb6435;
 }
 .gt8cc{
 	color: #fb6435cc;
-	background-color: #fb6435cc;
+	//background-color: #fb6435cc;
+}
+.gt9{
+	color: #fdd878;
+	//background-color: #fdd878;
 }
 .rainbow{
 	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
+}
+.ease{
+	transition: 3s ease;
+	font-size: 6rem;
+	font-weight: bold;
 }
 
 
@@ -508,7 +533,7 @@ a.nostyle:link, a.nostyle:visited {
 }
 
 .mw1337{
-	max-height: 1337px;
+	max-width: 1337px;
 }
 .banner{
 	position: relative;
@@ -709,6 +734,9 @@ a.nostyle:link, a.nostyle:visited {
   }
   .p-jumbo{
 	  font-size:169%;
+  }
+  .ease{
+	  font-size:4rem;
   }
   
 }
