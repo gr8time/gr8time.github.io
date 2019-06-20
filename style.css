@@ -828,7 +828,10 @@ a.nostyle:link, a.nostyle:visited {
 		font-size: 75%;
 	}
 	.social-footer a{
-		padding: 0 5px;
+		padding: 0 10px;
+	}
+	.social-footer {
+		font-size:1.1rem;
 	}
 	.text-footer{
 		font-size: 90%;
