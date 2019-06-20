@@ -279,7 +279,9 @@ hr.light-100{
 .box-shadow{
 	box-shadow: 0px 5px 5px rgb(0,0,0,.2);
 }
-
+.box-shadow-top{
+	box-shadow: 0px -5px 5px rgb(0,0,0,.2);
+}
 /* colors */
 .white{
 	color: white;
@@ -327,6 +329,36 @@ hr.light-100{
 	color: #fdd878;
 	//background-color: #fdd878;
 }
+
+.gt1bg{
+	background-color: #fbaf2c;
+}
+.gt2bg{
+	background-color: #8ad3e0;
+}
+.gt3bg{
+	background-color: #f36f98;
+}
+.gt4bg{
+	background-color: #eecc90;
+}
+.gt5bg{
+	background-color: #9e94bc;
+}
+.gt6bg{
+	background-color: #ea8d4d;
+}
+.gt7bg{
+	background-color: #5db1b5;
+}
+.gt8bg{
+	background-color: #fb6435;
+}
+.gt9bg{
+	background-color: #fdd878;
+}
+
+
 .rainbow{
 	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
 }
@@ -536,6 +568,10 @@ a.nostyle:link, a.nostyle:visited {
 .mw1337{
 	max-width: 1337px;
 }
+.mw25{
+	max-width: 25%;
+}
+
 .banner{
 	position: relative;
 	max-height: 70vh;
