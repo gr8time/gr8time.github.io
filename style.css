@@ -236,6 +236,29 @@ html, body{
 	color: #fbaf2c;
 	transform: scale(2);
 }
+.indexbutton{
+	background-color:white;
+	transition: .337s ease;
+}
+.indexbutton-dark{
+	background-color:#343A40;
+	transition: .337s ease;
+}
+.indexbutton:hover, .indexbutton-dark:hover{
+	z-index:37;
+	background-color:#8ad3e0;
+	transform: scale(1.02);
+	opacity: .9;
+	box-shadow: 0px -5px 5px rgb(0,0,0,.2);
+	
+}
+.overflow-x-hidden{
+	overflow-x:hidden;
+}
+
+
+
+
 
 
 
@@ -549,6 +572,14 @@ body{
   opacity: 0.737;
   transform: scale(1.03);
 }
+.img-listen{
+	transition: .5s ease;
+  backface-visibility: hidden;
+}
+.img-listen:hover {
+  opacity: 0.737;
+  transform: scale(1.03);
+}
 .play{
 	visibility: hidden;
 	transition: .5s ease;
@@ -707,8 +738,13 @@ a.nostyle:link, a.nostyle:visited {
 	height: 70%;
 }
 
+.mhvh{
+	max-height:2vh;
+}
 
-
+.contain{
+	size: cover;
+}
 
 
 
