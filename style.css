@@ -745,7 +745,10 @@ a.nostyle:link, a.nostyle:visited {
 .contain{
 	size: cover;
 }
-
+.wonkyplay{
+	top:20%;
+	left:20%;
+}
 
 
 
