@@ -10,6 +10,7 @@ html, body{
     // font-family: 'Mali', cursive; 	
 	color: #222;
 	cursor: grab;
+	overflow-x:hidden;
 }
 
 /* Navbar */
@@ -250,6 +251,7 @@ html, body{
 	transform: scale(1.02);
 	opacity: .9;
 	box-shadow: 0px -5px 5px rgb(0,0,0,.2);
+	
 	
 }
 .overflow-x-hidden{
