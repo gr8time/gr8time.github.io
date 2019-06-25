@@ -231,7 +231,14 @@ html, body{
 .fa-soundcloud{
 	color: #ff8800;
 	transition: .737s ease;
-	
+}
+.fa-play-circle, .fa-play{
+	color:#555555;
+	transition: .737s ease;
+}
+.fa-play-circle:hover, .fa-play:hover{
+	color:#fbaf2c;
+	transform: scale(1.2);
 }
 .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-spotify:hover, .fa-envelope:hover, .fa-itunes:hover, .fa-bandcamp:hover, .fa-google-play:hover, .fa-amazon:hover, .fa-soundcloud:hover{
 	color: #fbaf2c;
