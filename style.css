@@ -137,6 +137,13 @@ html, body{
 	background-color: #fbaf2c;
 	border: 1px solid #fdd878;
 }
+.btn-square{
+	border-radius:0;
+	//font-weight: bold;
+}
+
+
+
 .jumbotron{
 	padding: 1rem;
 	border-radius: 0;
