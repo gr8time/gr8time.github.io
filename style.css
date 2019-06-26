@@ -141,6 +141,13 @@ html, body{
 	border-radius:0;
 	//font-weight: bold;
 }
+.btn-rushin{
+	//font-weight:bold;
+	font-size:1.2rem!important;
+	position:absolute;
+	top:55%;
+	left:12.5%;
+}
 
 
 
@@ -778,7 +785,7 @@ a.nostyle:link, a.nostyle:visited {
 	position: absolute;
 	bottom:0;
 	left:0;
-	height: 80%;
+	height: 100%;
 	transition: .737s ease;
 	//font-size: 3rem !important;
 }
