@@ -829,15 +829,22 @@ a.nostyle:link, a.nostyle:visited {
 		font-size: 120%;
 	}
 }
-
+@media (min-width: 1400px){
+	.mw1337{
+		max-width: 65vw;
+	}
+	.btn-rushin{
+		font-size: 2rem!important;
+	}
+}
 @media (min-width: 1000px){
 	.mw1337{
 		max-width: 75vw;
 	}
 }
-@media (min-width: 1400px){
-	.mw1337{
-		max-width: 65vw;
+@media (min-width: 850px){
+	.btn-rushin{
+		font-size: 1.5rem!important;
 	}
 }
 @media (max-width: 850px) {
@@ -921,10 +928,13 @@ a.nostyle:link, a.nostyle:visited {
 		font-size: 1.8rem;
 		
 	}
-	.indexbutton-text{
+  .indexbutton-text{
 	font-weight:bold;
 	font-size:1.5rem;
-	}	
+  }
+  .btn-rushin{
+	font-size:1.1rem!important;
+  }
 
   
 
@@ -950,6 +960,9 @@ a.nostyle:link, a.nostyle:visited {
 	.indexbutton-text{
 	font-weight:bold;
 	font-size:1.1rem;
+	}
+	.btn-rushin{
+	font-size:1rem!important;
 	}
 	
 }
