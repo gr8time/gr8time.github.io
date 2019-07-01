@@ -342,43 +342,33 @@ hr.light-100{
 }
 .gt1{
 	color: #fbaf2c;
-	//background-color: #fbaf2c;
 }
 .gt2{
 	color: #8ad3e0;
-	//background-color: #8ad3e0;
 }
 .gt3{
 	color: #f36f98;
-	//background-color: #f36f98;
 }
 .gt4{
 	color: #eecc90;
-	//background-color: #eecc90;
 }
 .gt5{
 	color: #9e94bc;
-	//background-color: #9e94bc;
 }
 .gt6{
 	color: #ea8d4d;
-	//background-color: #ea8d4d;
 }
 .gt7{
 	color: #5db1b5;
-	//background-color: #5db1b5;
 }
 .gt8{
 	color: #fb6435;
-	//background-color: #fb6435;
 }
 .gt8cc{
 	color: #fb6435cc;
-	//background-color: #fb6435cc;
 }
 .gt9{
 	color: #fdd878;
-	//background-color: #fdd878;
 }
 
 .gt1bg{
@@ -505,30 +495,13 @@ body{
 .hr-jumbo{
 	padding: .5rem;
 }
-/*.jumbo, a:link{
-	color: black;
-}
-.jumbo, a:visited{
-	color: black;
-}*/
+
 .container-fluid-jumbo{
 	position: relative;
 	z-index: 1;
 	box-shadow: 0px -7px 15px rgba(0,0,0,.2);
 }
 
-.connect{
-	position: relative;
-	z-index: 1;
-	/*box-shadow: 0px -7px 15px rgba(0,0,0,.2);*/
-	background-color: #eeeeeeaa;
-}
-/*.h2-connect{
-	background-image:url("img/gif/connect.gif");
-	background-repeat: no-repeat;
-	background-position:center;
-	
-}*/
 .logo-footer{
 	filter: invert(100%);
 }
@@ -553,9 +526,6 @@ body{
 .content {
   height: 100%;
 }
-.jumbo-listen{
-	/*background-image: url(img/shroomrock.jpg);*/
-}
 .collapse.show{
 	display: flex;
 }
@@ -578,19 +548,6 @@ body{
 	font-size: 2rem;
 	padding: 2rem;
 }
-/*.cloudpuffs{
-	width: 1280px;
-	height: 720px;
-	background: url("img/cloudpuffs.jpg") left center no-repeat;
-	background-size: cover;
-	object-fit: contain;
-	animation: play 1s steps(12) infinite;
-}
-@keyframes play{
-	100%{
-		background-position: -15360px;
-	}
-}*/
 
 .card-img-top{
 	transition: .5s ease;
@@ -811,6 +768,9 @@ a.nostyle:link, a.nostyle:visited {
 .wonkyplay{
 	top:20%;
 	left:20%;
+}
+.songinfo{
+	background-color:#00000011;
 }
 
 
