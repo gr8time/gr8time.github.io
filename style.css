@@ -149,17 +149,17 @@ html, body{
 	left:12.5%;
 	animation: buttonPulse 5s ease-in-out 1s infinite; 
 }
-
+.btn-rushin:hover{
+	animation-play-state: paused;
+}
 @keyframes buttonPulse {
 	0%, 100% {
-		transform: scale(1);
-		transform: translateX(100);
-		transform: translateY(100);
+		transform: scale(1) translateY(0vh);
+		//transform: translateY(7px);
 	}
 	37% {
-		transform: scale(.9);
-		transform: translateX(-100);
-		transform: translateY(-100);
+		transform: scale(1.03) translateY(.37vh);
+		//transform: translateY(-7px);
 	}
 }
 
