@@ -147,7 +147,7 @@ html, body{
 	position:absolute;
 	top:55%;
 	left:12.5%;
-	animation: buttonPulse 5s ease-in-out 1s infinite; 
+	animation: buttonPulse 7s ease-in-out 1s infinite; 
 }
 .btn-rushin:hover{
 	animation-play-state: paused;
