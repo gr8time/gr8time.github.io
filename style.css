@@ -819,13 +819,13 @@ a.nostyle:link, a.nostyle:visited {
 		font-size: 2rem!important;
 	}
 }
+
+}
 @media (min-width: 1000px){
 	.mw1337{
 		max-width: 75vw;
 	}
-	.mw-watch{
-		max-width: 75vw;
-	}
+
 }
 @media (min-width: 850px){
 	.btn-rushin{
