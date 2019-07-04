@@ -147,6 +147,20 @@ html, body{
 	position:absolute;
 	top:55%;
 	left:12.5%;
+	animation: buttonPulse 5s ease-in-out 1s infinite; 
+}
+
+@keyframes buttonPulse {
+	0%, 100% {
+		transform: scale(1);
+		transform: translateX(100);
+		transform: translateY(100);
+	}
+	37% {
+		transform: scale(.9);
+		transform: translateX(-100);
+		transform: translateY(-100);
+	}
 }
 
 
@@ -772,7 +786,12 @@ a.nostyle:link, a.nostyle:visited {
 .songinfo{
 	background-color:#00000011;
 }
-
+.vid-watch{
+	transition: .337s ease;
+}
+.vid-watch:hover{
+	transform: scale(1.03);
+}
 
 
 
@@ -793,12 +812,18 @@ a.nostyle:link, a.nostyle:visited {
 	.mw1337{
 		max-width: 65vw;
 	}
+	.mw-watch{
+		max-width: 60vw;
+	}
 	.btn-rushin{
 		font-size: 2rem!important;
 	}
 }
 @media (min-width: 1000px){
 	.mw1337{
+		max-width: 75vw;
+	}
+	.mw-watch{
 		max-width: 75vw;
 	}
 }
