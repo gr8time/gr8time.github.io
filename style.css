@@ -495,6 +495,7 @@ height: 100%;
 body{
 	//background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
 	background-image: url(img/skyseamless.jpg);
+	//background-image: url(img/rushinbg.jpg);
 	background-color: white;
 	background-size: contain;
 	background-repeat: repeat;
@@ -792,8 +793,17 @@ a.nostyle:link, a.nostyle:visited {
 .vid-watch:hover{
 	transform: scale(1.03);
 }
+.tour{
+	//background-image:url("img/rushinbg.jpg");
+	//background-color: #ffffff; 
+	//font-weight: bolder;
+}
 
+/* BandsinTown Widget Event */
 
+div.bit-event{
+	font-weight: bold;
+}
 
 
 
@@ -809,9 +819,9 @@ a.nostyle:link, a.nostyle:visited {
 	}
 }
 @media (min-width: 1400px){
-	.mw1337{
+	 .mw1337{
 		max-width: 65vw;
-	}
+	} 
 	.mw-watch{
 		max-width: 60vw;
 	}
@@ -822,9 +832,9 @@ a.nostyle:link, a.nostyle:visited {
 
 }
 @media (min-width: 1000px){
-	.mw1337{
-		max-width: 75vw;
-	}
+	/* .mw1337{
+		max-width: 65vw;
+	} */
 
 }
 @media (min-width: 850px){
