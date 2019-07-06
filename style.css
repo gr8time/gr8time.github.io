@@ -161,7 +161,7 @@ html, body{
 	width: 100%;
 	height: 100%;
 	border: 3px solid;
-	border-color: #9e94bcdd;
+	border-color: #9e94bcaa;
 	border-radius:5px;
 	background-color: #9e94bcaa;
 	filter: blur(4px);
@@ -456,18 +456,13 @@ hr.light-100{
 	font-size: 6rem;
 	font-weight: bold;
 	letter-spacing: -5px;
-}
+/* 	filter: drop-shadow(2px 2px 5px #00000033);
+ */}
 .ease:hover{
 	transform: rotate(16deg);
 }
 
 
-.jumbotron{
-	/*background-image: url('img/jumbo1.jpg');*/
-	/*background-color: #454545;*/
-	background-repeat: no-repeat;
-	background-size:  100%;
-}
 .carousel-caption{
 	color: black;
 	text-align: center;
@@ -493,21 +488,6 @@ hr.light-100{
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23555' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-
-/*attempting to limit height of carousel
-
-.carousel-inner img{
-	max-height:77vh;
-	max-width:77vh;
-	overflow: hidden;
-	display: cover;
-	overflow: hidden;
-}*/
-
-/*#slides{
-	max-height: 75vh;
-	overflow: auto;
-}*/
 
 
 .video-container {
@@ -603,21 +583,45 @@ body{
 }
 
 .card-img-top{
-	transition: .5s ease;
-  backface-visibility: hidden;
+	transition: .337s ease-out;
+	position: relative;
+    /* backface-visibility: hidden; */
 }
-.card-img-top:hover {
-  opacity: 0.737;
+.card-img-top:hover{
+  opacity: 0.937;
   transform: scale(1.03);
+  z-index: 1;
+  /* animation: zindex 7s infinite; */
+
 }
-.img-listen{
-	transition: .5s ease;
-  backface-visibility: hidden;
+#rowRushin{
+	background-image: url(img/rushinbg.jpg);
+	background-size: contain;
+	transition: .337s ease-out;
+	position: relative;
 }
-.img-listen:hover {
-  opacity: 0.737;
-  transform: scale(1.03);
+#rowWeekend{
+	background-color: #34424F;
+	transition: .337s ease-out;
+	position: relative;
 }
+#rowRushin:hover, #rowWeekend:hover{
+	opacity: 0.937;
+	transform: scale(1.03);
+	z-index: 1;
+}
+
+
+
+@keyframes zindex{
+	0%, 100% {
+		transform:scale(1.03);
+	}
+	50% {
+		transform: scale(1.07);
+	}
+}
+
 .play{
 	visibility: hidden;
 	transition: .5s ease;
@@ -811,6 +815,11 @@ a.nostyle:link, a.nostyle:visited {
   transform: scale(1.2);
 } */
 
+
+
+
+
+
 .mhvh{
 	max-height:2vh;
 }
@@ -842,6 +851,9 @@ a.nostyle:link, a.nostyle:visited {
 div.bit-event{
 	font-weight: bold;
 }
+#liveShows{
+	background-color: #AAAAAA08;
+}
 
 
 
@@ -868,7 +880,7 @@ div.bit-event{
 	}
 }
 
-}
+
 
 @media (min-width: 850px){
 	.btn-rushin{
