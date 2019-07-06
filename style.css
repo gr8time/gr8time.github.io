@@ -163,8 +163,8 @@ html, body{
 	border: 3px solid;
 	border-color: #9e94bc;
 	background-color: #9e94bcaa;
-	filter: blur(1px);
-	animation: buttonPulse 4s ease-out 1s infinite;
+	filter: blur(3px);
+	animation: buttonPulse 5s ease-out 1s infinite;
 }
 #buttonPulseDiv:hover{
 	border-color: #fbaf2c;
@@ -176,10 +176,10 @@ html, body{
 		opacity: .99;
 	}
 
-	70%, 100%{
+	62%, 100%{
 		transform: scaleY(2.2) scaleX(1.2);
 		opacity: 0;
-		filter: blur(9px);
+		//filter: blur(9px);
 	}
 }
 @keyframes buttonScalePulse {
