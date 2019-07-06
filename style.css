@@ -609,8 +609,9 @@ body{
 	transition: .337s ease-out;
 	position: relative;
 }
-#rowGa{
-	
+.rowDivide{
+	height: 2px;
+	background-color: #333333;
 }
 /* #rowRushin:hover, #rowWeekend:hover{
 	opacity: 0.937;
