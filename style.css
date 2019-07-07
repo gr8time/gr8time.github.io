@@ -166,7 +166,7 @@ html, body{
 	background-color: #9e94bcaa;
 	filter: blur(4px);
 	opacity:0;
-	animation: buttonPulse 4s ease-out 5s infinite;
+	animation: buttonPulse 4s ease-out 3s infinite;
 }
 #buttonPulseDiv:hover{
 	border-color: #fbaf2c;
@@ -458,7 +458,8 @@ hr.light-100{
 	background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878);
 }
 .ease{
-	/* transition: 3s ease; */
+	display: inline-block;
+	transition: .137s ease;
 	font-size: 6rem;
 	font-weight: bold;
 	letter-spacing: -5px;
@@ -466,6 +467,7 @@ hr.light-100{
  */}
 .ease:hover{
 	transform: rotate(16deg);
+	opacity: .8;
 }
 
 
