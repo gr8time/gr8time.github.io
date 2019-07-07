@@ -613,8 +613,8 @@ body{
 	position: relative;
 }
 .rowDivide{
-	height: 2px;
-	background-color: #333333;
+	height: 4px;
+	background-color: #555555;
 }
 /* #rowRushin:hover, #rowWeekend:hover{
 	opacity: 0.937;
