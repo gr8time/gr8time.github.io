@@ -424,19 +424,19 @@ hr.light-100{
 }
 
 .gt1bg{
-	background-color: #fbaf2c;
+	background-color: #fbaf2cEE;
 }
 .gt2bg{
-	background-color: #8ad3e0;
+	background-color: #8ad3e0EE;
 }
 .gt3bg{
-	background-color: #f36f98;
+	background-color: #f36f98EE;
 }
 .gt4bg{
-	background-color: #eecc90;
+	background-color: #eecc90EE;
 }
 .gt5bg{
-	background-color: #9e94bc;
+	background-color: #9e94bcEE;
 }
 .gt6bg{
 	background-color: #ea8d4d;
@@ -450,6 +450,8 @@ hr.light-100{
 .gt9bg{
 	background-color: #fdd878;
 }
+
+
 
 
 .rainbow{
@@ -517,7 +519,7 @@ height: 100%;
 body{
 	/* background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878); */
 	background-image: url(img/skyseamless.jpg);
-	/* background-image: url(img/rushinbg.jpg); */
+	background-image: url(img/rushinbg.jpg);
 	background-color: white;
 	background-size: contain;
 	background-repeat: repeat;
@@ -703,7 +705,7 @@ a.nostyle:link, a.nostyle:visited {
 	outline: none;
 }
 .vidDiv{
-	opacity: 50%;
+	opacity: .5;
 }
 
 
