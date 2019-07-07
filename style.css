@@ -165,6 +165,7 @@ html, body{
 	border-radius:5px;
 	background-color: #9e94bcaa;
 	filter: blur(4px);
+	opacity:0;
 	animation: buttonPulse 4s ease-out 5s infinite;
 }
 #buttonPulseDiv:hover{
@@ -586,7 +587,7 @@ body{
 }
 
 .card-img-top{
-	transition: .337s ease-out;
+	transition: .237s ease-out;
 	position: relative;
     /* backface-visibility: hidden; */
 }
@@ -701,7 +702,9 @@ a.nostyle:link, a.nostyle:visited {
 	border: none;
 	outline: none;
 }
-
+.vidDiv{
+	opacity: 50%;
+}
 
 
 /* Colorcycle */
