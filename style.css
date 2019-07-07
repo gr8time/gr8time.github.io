@@ -469,6 +469,15 @@ hr.light-100{
 	transform: rotate(16deg);
 	opacity: .8;
 }
+.textHop{
+	display: inline-block;
+	transition: .137s ease;
+}
+.textHop:hover{
+	transform: translateY(-15px) scale(1.1);
+	
+}
+
 
 
 .carousel-caption{
