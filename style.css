@@ -619,6 +619,8 @@ body{
 }
 #rowWeekend{
 	background-color: #34424F;
+	background-image: url(img/weekendbg.jpg);
+	background-size: contain;
 	/* background-color: #26323E; */
 	transition: .337s ease-out;
 	position: relative;
