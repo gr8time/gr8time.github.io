@@ -424,31 +424,40 @@ hr.light-100{
 }
 
 .gt1bg{
-	background-color: #fbaf2cEE;
+	background-color: rgba(251, 175, 44, 0.93);
+	/* background-color: #fbaf2cEE; */
 }
 .gt2bg{
-	background-color: #8ad3e0EE;
+	background-color: rgba(138,211,224, 0.93);
+	/* background-color: #8ad3e0EE; */
 }
 .gt3bg{
-	background-color: #f36f98EE;
+	background-color: rgba(243,111,152, 0.93);
+	/* background-color: #f36f98EE; */
 }
 .gt4bg{
-	background-color: #eecc90EE;
+	background-color: rgba(238,204,144, 0.93);
+	/* background-color: #eecc90EE; */
 }
 .gt5bg{
-	background-color: #9e94bcEE;
+	background-color: rgba(158,148,188, 0.93);
+	/* background-color: #9e94bcEE; */
 }
 .gt6bg{
-	background-color: #ea8d4d;
+	background-color: rgba(234,141,77, 0.93);
+	/* background-color: #ea8d4dEE; */
 }
 .gt7bg{
-	background-color: #5db1b5;
+	background-color: rgba(93,177,181, 0.93);
+	/* background-color: #5db1b5EE; */
 }
 .gt8bg{
-	background-color: #fb6435;
+	background-color: rgba(251,100,53, 0.93);
+	/* background-color: #fb6435EE; */
 }
 .gt9bg{
-	background-color: #fdd878;
+	background-color: rgba(253,216,120, 0.93);
+	/* background-color: #fdd878EE; */
 }
 
 
