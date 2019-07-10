@@ -79,7 +79,7 @@
 
 #mc_embed_signup .size1of2 {
     clear: none;
-    float: left;
+    /* float: left; */
     display: inline-block;
     width: 46%;
     margin-right: 4%;
@@ -115,7 +115,7 @@
 
 #mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input {
     display: inline;
-    width: 60px;
+    /* width: 60px; */
     margin: 0 2px;
     letter-spacing: 1px;
     text-align: center;
@@ -170,7 +170,7 @@
 
 #mc_embed_signup .mc-field-group.input-group input {
     display: inline;
-    width: auto;
+    /* width: auto; */
     border: none;
 }
 
