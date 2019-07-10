@@ -828,6 +828,7 @@ body {
 	/* animation: zindex 7s infinite; */
 }
 
+
 #rowRushin {
 	background-image: url(img/rushinbg.jpg);
 	background-size: contain;
@@ -1170,6 +1171,14 @@ div.bit-event {
 #liveShows {
 	background-color: #AAAAAA08;
 }
+
+
+
+
+
+
+
+
 
 /*---Media Queries --*/
 
