@@ -304,7 +304,7 @@ a.nostyle:link, a.nostyle:visited {
 }
 .emailLink{
 	transition: .137s ease;
-	font-size: calc(.9vw + 1vh + .1vmin);
+	font-size: calc(.9vw + 1.3vh + .1vmin);
 }
 .emailLink:hover{
 	/* color: #fbaf2c; */
