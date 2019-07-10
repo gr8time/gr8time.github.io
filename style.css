@@ -1286,6 +1286,9 @@ div.bit-event {
 	.btn-rushin {
 		font-size: 1.1rem!important;
 	}
+	.emailLink{
+		font-size: calc((.9vw + 1.3vh + .1vmin)*1.2);
+	}
 }
 
 @media (max-width: 450px) {
