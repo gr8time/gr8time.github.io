@@ -35,11 +35,11 @@
 
 #mc_embed_signup .button {
     clear: both;
-    background-color: #aaa;
+    background-color: #9e94bc;
     border: 0 none;
     border-radius: 4px;
-    transition: all 0.23s ease-in-out 0s;
-    color: #FFFFFF;
+    transition: all 0.137s ease-in-out 0s;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-size: 15px;
@@ -56,7 +56,9 @@
 }
 
 #mc_embed_signup .button:hover {
-    background-color: #777;
+    background-color: #fbaf2c;
+    border: 1px solid #fdd878;
+    transform:scale(1.2);
 }
 
 #mc_embed_signup .small-meta {
