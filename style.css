@@ -197,7 +197,18 @@ html, body{
 		/* transform: translateY(-7px); */
 	}
 }
-
+.spin{
+	transition: .137s ease;
+	animation: spin 73s linear infinite;
+}
+@keyframes spin {
+	50%{
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
 
 
 .jumbotron{
