@@ -42,7 +42,7 @@
       cursor.x = e.clientX;
       cursor.y = e.clientY;
       
-      addParticle( cursor.x, cursor.y);
+      addParticle(cursor.x, cursor.y - 590);
     }
     
     function addParticle(x, y) {
@@ -91,7 +91,8 @@
         "background": "#e6f1f7",
         "box-shadow": "-1px 0px #6badd3, 0px -1px #6badd3, 1px 0px #3a92c5, 0px 1px #3a92c5",
          "border-radius": "3px",
-        "overflow": "hidden"
+        "overflow": "hidden",
+        "opacity": ".85"
       };
   
       // Init, and set properties
@@ -120,7 +121,7 @@
         this.velocity.y -= Math.random() / 600;
         this.lifeSpan--;
         
-        this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px,0) scale(" + ( 0.2 + (250 - this.lifeSpan) / 250) + ")";
+        this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px,0) scale(" + (.2 + (250 - this.lifeSpan) / 250) + ")";
       }
       
       this.die = function() {
