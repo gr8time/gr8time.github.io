@@ -42,7 +42,7 @@
       cursor.x = e.clientX;
       cursor.y = e.clientY;
       
-      addParticle(cursor.x, cursor.y - 590);
+      addParticle(cursor.x, cursor.y - 550);
     }
     
     function addParticle(x, y) {
