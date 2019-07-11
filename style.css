@@ -1199,8 +1199,13 @@ div.bit-event {
 	z-index:2;
 	
 }
-
-
+#passcode{
+	cursor: crosshair;
+	transition: .137s ease;
+}
+#passcode:hover{
+	color: red;
+}
 
 
 
