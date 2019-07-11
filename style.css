@@ -1171,7 +1171,26 @@ div.bit-event {
 #liveShows {
 	background-color: #AAAAAA08;
 }
-
+.checklist{
+	justify-content: center;
+	text-align: center;
+	font-size: calc((5vw));
+	font-weight: bold;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 10px;
+	transition: .237s ease;
+	/* box-shadow: 0px 2px 2px rgb(0, 0, 0, .2); */
+	/* font-size: calc((.9vw + 1.3vh + .1vmin)*2); */
+}
+.checklist:hover{
+	background-color: #fbaf2c;
+	transform: scale(1.1);
+}
+#checkList div{
+	padding:0 5px 0 5px;
+	
+}
 
 
 
