@@ -198,9 +198,9 @@ a.nostyle:link, a.nostyle:visited {
 	width: 100%;
 	height: 100%;
 	border: 3px solid;
-	border-color: #9e94bcaa;
+	border-color: rgba(158, 148, 188, 0.67);
 	border-radius: 5px;
-	background-color: #9e94bcaa;
+	background-color: rgba(158, 148, 188, 0.67);
 	-webkit-filter: blur(4px);
 	filter: blur(4px);
 	opacity: 0;
@@ -303,14 +303,17 @@ a.nostyle:link, a.nostyle:visited {
 	}
 }
 .emailLink{
+	-webkit-transition: .137s ease;
 	transition: .137s ease;
 	font-size: calc(.9vw + 1.3vh + .1vmin);
 }
 .emailLink:hover{
 	/* color: #fbaf2c; */
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
 	text-decoration: underline;
-	filter: drop-shadow(2px 2px 0px rgb(0, 0, 0, .2));
+	-webkit-filter: drop-shadow(2px 2px 0px rgb(0, 0, 0, .2));
+	        filter: drop-shadow(2px 2px 0px rgb(0, 0, 0, .2));
 
 }
 .booking{
@@ -1172,20 +1175,24 @@ div.bit-event {
 	background-color: #AAAAAA08;
 }
 .checklist{
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 	font-size: calc((2vw + 2vh));
 	font-weight: bold;
 	border-radius: 5px;
 	margin: auto;
 	margin-bottom: 10px;
+	-webkit-transition: .237s ease;
 	transition: .237s ease;
 	/* box-shadow: 0px 2px 2px rgb(0, 0, 0, .2); */
 	/* font-size: calc((.9vw + 1.3vh + .1vmin)*2); */
 }
 .checklist:hover{
 	background-color: #fbaf2c;
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 #checkList div{
 	padding:0 5px 0 5px;
