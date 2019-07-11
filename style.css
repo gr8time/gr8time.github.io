@@ -1174,7 +1174,7 @@ div.bit-event {
 .checklist{
 	justify-content: center;
 	text-align: center;
-	font-size: calc((5vw));
+	font-size: calc((2vw + 2vh));
 	font-weight: bold;
 	border-radius: 5px;
 	margin: auto;
@@ -1189,6 +1189,7 @@ div.bit-event {
 }
 #checkList div{
 	padding:0 5px 0 5px;
+	z-index:2;
 	
 }
 
