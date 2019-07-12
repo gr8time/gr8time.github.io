@@ -11,7 +11,7 @@ html, body {
 	cursor: -webkit-grab;
 	cursor: grab;
 	overflow-x: hidden;
-	-webkit-overflow-scrolling: touch;
+	/* -webkit-overflow-scrolling: touch; */
 }
 
 a.nostyle:link, a.nostyle:visited {
