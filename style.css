@@ -1217,7 +1217,7 @@ div.bit-event {
 	height: 100vh;
 	background-color: rgba(255,0,0,.5);
 }
-.embed-responsive-item{
+.iosScroll{
 	-webkit-overflow-scrolling: touch;
 }
 
