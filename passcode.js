@@ -1,21 +1,24 @@
-document.getElementById("passcode").onclick = function passcode(){
+document.getElementById("passcode").onclick = function redboi(){
+redAlert = document.getElementById("redAlert");
+redAlert.style.display = "block";
+}
 
-    var x = "TIME";
+document.getElementById("passcode").onclick = function passcode(){
     var turns = 1;
-    var hint = "GREAT";
     
     while (turns > 0) {
-      var guess = prompt("Oh no! Somebody's hacking into the mainframe to steal the serverside scripting log! Quick, enter the passcode to sign into the onboard compiler and parse those f*ckers out! \n\nhint: GREAT");
-      if (!guess) break;
-      if (guess == "TIME" || guess == "time" || guess == "Time") {
+    var guess = prompt("Oh no! Somebody's hacking into the mainframe to steal the serverside scripting log! Quick, enter the passcode to sign into the onboard compiler and parse those f*ckers out! \n\nhint: GREAT");
+    if (!guess) break;
+    if (guess == "TIME" || guess == "time" || guess == "Time") {
         alert('Conglaturation! You stopped the hackers!');
         break;
-      }else {
+    }else {
         alert('Dang it! Lost em again. Better luck next time, kid.');
         break;
-      }
+    } 
     }
-    
-    }
+ 
+    redAlert.style.display = "none"
+}
     
     
