@@ -5,9 +5,11 @@ deployment:
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/img $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/scripts $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/sound $DEPLOYPATH
+    - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/css $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/index.html $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/listen.html $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/watch.html $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/tour.html $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/about.html $DEPLOYPATH
+    - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/404.html $DEPLOYPATH
     
