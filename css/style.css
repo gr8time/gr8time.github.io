@@ -24,7 +24,7 @@ a.nostyle:link, a.nostyle:visited {
 
 .navbar {
 	padding: .8rem;
-	background-image: url("img/navbg.jpg");
+	background-image: url("../img/navbg.jpg");
 	/* background-size: cover; */
 	-webkit-box-shadow: 0px 5px 5px rgb(0, 0, 0, .2);
 	box-shadow: 0px 5px 5px rgb(0, 0, 0, .2);
@@ -733,8 +733,8 @@ hr.light-100 {
 
 body {
 	/* background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878); */
-	background-image: url(img/skyseamless.jpg);
-	background-image: url(img/rushinbg.jpg);
+	background-image: url(../img/skyseamless.jpg);
+	background-image: url(../img/rushinbg.jpg);
 	background-color: white;
 	background-size: contain;
 	background-repeat: repeat;
@@ -834,7 +834,7 @@ body {
 
 
 #rowRushin {
-	background-image: url(img/rushinbg.jpg);
+	background-image: url(../img/rushinbg.jpg);
 	background-size: contain;
 	-webkit-transition: .337s ease-out;
 	transition: .337s ease-out;
@@ -843,7 +843,7 @@ body {
 
 #rowWeekend {
 	background-color: #34424F;
-	background-image: url(img/weekendbg.jpg);
+	background-image: url(../img/weekendbg.jpg);
 	background-size: contain;
 	/* background-color: #26323E; */
 	-webkit-transition: .337s ease-out;
@@ -889,7 +889,7 @@ body {
 	-webkit-transition: .5s ease;
 	transition: .5s ease;
 	position: absolute;
-	cursor: url(img/play-solid.svg), auto !important;
+	cursor: url(../img/play-solid.svg), auto !important;
 }
 
 .play:hover {
@@ -1113,7 +1113,7 @@ body {
 }
 
 .rushin {
-	background-image: url("img/rushinbg.jpg");
+	background-image: url("../img/rushinbg.jpg");
 	background-size: cover;
 }
 
@@ -1409,7 +1409,7 @@ figure {
 }
 
 #fixed {
-	background-image: url('img/mac.png');
+	background-image: url('../img/mac.png');
 	position: fixed;
 	display: block;
 	top: 0;
