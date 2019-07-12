@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/greatti6/public_html/
-    - /bin/cp -R repositories/gr8timehub.io.git $DEPLOYPATH
+    - /bin/cp -R repositories/gr8timehub.io.git/ $DEPLOYPATH
