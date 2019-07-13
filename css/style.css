@@ -1195,7 +1195,9 @@ div.bit-event {
 .iosScroll{
 	-webkit-overflow-scrolling: touch;
 }
-
+.subscribe{
+	font-size: calc((.9vw + 1vh + .1vmin));
+}
 
 
 
