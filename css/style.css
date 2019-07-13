@@ -1196,7 +1196,7 @@ div.bit-event {
 	-webkit-overflow-scrolling: touch;
 }
 .subscribe{
-	font-size: calc((.9vw + 1vh + .1vmin));
+	font-size: calc((.6vw + 1.2vh + .1vmin));
 }
 
 
