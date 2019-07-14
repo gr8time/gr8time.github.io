@@ -275,7 +275,7 @@ a.nostyle:link, a.nostyle:visited {
 }
 
 .spin {
-	max-height: 80vh;
+	max-height: 70vh;
 	-webkit-transition: .137s ease;
 	transition: .137s ease;
 	-webkit-animation: spin 73s linear 0s infinite;
@@ -445,12 +445,14 @@ a.nostyle:link, a.nostyle:visited {
 	background-color: white;
 	-webkit-transition: .337s ease;
 	transition: .337s ease;
+	color: #343A40;
 }
 
 .indexbutton-dark {
 	background-color: #343A40;
 	-webkit-transition: .337s ease;
 	transition: .337s ease;
+	color: white;
 }
 
 .indexbutton:hover, .indexbutton-dark:hover {
@@ -1198,7 +1200,18 @@ div.bit-event {
 .subscribe{
 	font-size: calc((.6vw + 1.2vh + .1vmin));
 }
-
+.press{
+	font-size:2.5em;
+	/* font-weight: bold; */
+	color: white;
+	background-color: rgba(52,58,64,.9);
+}
+.pressInner{
+	background-color: white;
+	color: rgb(52,58,64);
+	margin-bottom: 1vh;
+	font-size: calc((.6vw + 1.2vh + .1vmin)*1.3);
+}
 
 
 
