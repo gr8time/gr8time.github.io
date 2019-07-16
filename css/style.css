@@ -1229,6 +1229,10 @@ div.bit-event {
 #hiRes{
 	font-size: .5em;
 }
+#lastModified{
+	font-size: .8rem;
+	opacity: .3;
+}
 
 
 
