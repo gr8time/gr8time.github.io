@@ -1177,9 +1177,14 @@ div.bit-event {
 	
 }
 #passcode{
+	/* position: absolute;
+	top:3px;
+	left: 8px; */
+	padding:0 0 0 8px;
 	cursor: crosshair;
 	transition: .137s ease;
-	color: rgba(0,0,0,.37)
+	color: rgba(0,0,0,.37);
+	
 }
 #passcode:hover{
 	color: red;
@@ -1230,8 +1235,17 @@ div.bit-event {
 	font-size: .5em;
 }
 #lastModified{
-	font-size: .8rem;
-	opacity: .3;
+	font-size: .73rem;
+	text-align: right;
+	/* opacity: .3; */
+	padding-right: 4px;
+}
+.copyright{
+	/* opacity: .3; */
+	padding-left: 5px;
+}
+#copyright-footer{
+	opacity: .73;
 }
 
 
