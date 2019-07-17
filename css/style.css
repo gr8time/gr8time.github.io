@@ -1235,7 +1235,7 @@ div.bit-event {
 	font-size: .5em;
 }
 #lastModified{
-	font-size: .73rem;
+	/* font-size: .73rem; */
 	text-align: right;
 	opacity: .3;
 	padding-right: 4px;
@@ -1246,6 +1246,7 @@ div.bit-event {
 }
 #copyright-footer{
 	/* opacity: .3; */
+	font-size: calc((.8vw + .8vh))
 }
 
 
