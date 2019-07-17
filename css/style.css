@@ -1243,10 +1243,12 @@ div.bit-event {
 .copyright{
 	opacity: .3;
 	padding-left: 4px;
+	padding-bottom: .37vh;
 }
 #copyright-footer{
 	/* opacity: .3; */
-	font-size: calc((.8vw + .8vh))
+	font-size: calc((.8vw + .8vh));
+	
 }
 
 
