@@ -711,7 +711,7 @@ hr.light-100 {
 
 body {
 	/* background-image: linear-gradient(to bottom right, #fbaf2c, #8ad3e0, #f36f98, #eecc90, #9e94bc, #ea8d4d, #5db1b5, #fb6435, #fdd878); */
-	background-image: url(../img/skyseamless.jpg);
+	/* background-image: url(../img/skyseamless.jpg); */
 	background-image: url(../img/rushinbg.jpg);
 	background-color: white;
 	background-size: contain;
@@ -1334,6 +1334,9 @@ div.bit-event {
 }
 
 @media (max-width: 768px) {
+	body{
+		background-image: url(../img/rushinbg-small.jpg);
+	}
 	.carousel-caption h1 {
 		font-size: 220%;
 		text-shadow: 0px 0px 80px #000;
@@ -1371,6 +1374,7 @@ div.bit-event {
 }
 
 @media (max-width: 576px) {
+
 	.carousel-caption h1 {
 		font-size: 175%;
 		text-shadow: 0px 0px 80px #000;
