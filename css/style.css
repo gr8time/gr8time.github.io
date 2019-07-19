@@ -1292,6 +1292,7 @@ div.bit-event {
 #counter{
 	font-size: .5rem;
 	opacity: .73;
+	vertical-align: center;
 }
 
 
