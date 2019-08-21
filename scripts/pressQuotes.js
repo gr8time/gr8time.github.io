@@ -20,7 +20,7 @@ var pressQuotes = [
   '"Vocals are gorgeous, jam is banging."',
   '"I\'m about to move to PA! That means I can come see you guys live!"',
   '"Reminds me a lot of chromeo. Good music."',
-  '"OK, Old Guy here...congratulations youngsters!"',
+  '"OK, Old Guy here...Dang! this is sweet...congratulations youngsters!"',
   '"This is going straight on my chill out playlist, super funky."',
   '"When you say funk...YOU\'RE NOT PLAYIN\' AROUND!"',
   '"They seem like a bunch of absolute weirdos in the best possible way."',
