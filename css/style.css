@@ -1294,9 +1294,51 @@ div.bit-event {
 	opacity: .69;
 	vertical-align: center;
 }
-/* #indexHeadline{
-	font-size: calc((.8vw + .8vh));
-} */
+#indexHeadline{
+	font-size: calc((.9vw + .8vh));
+} 
+
+
+
+/* pressQuotes css ---------------------*/
+.myFact {
+	display: none;
+	font-style: italic;
+}
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 25s;
+    animation-name: fade;
+    animation-duration: 25s;
+    margin: auto;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    27%,77% {
+        opacity: .73;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    27%,77% {
+        opacity: .73;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+/* end pressQuotes css ------------------*/
 
 
 
