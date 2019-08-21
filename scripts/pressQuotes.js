@@ -1,9 +1,7 @@
 'use strict';
 
 var pressQuotes = [
-  '"...electronic pop songs in the vein of Twin Sister, Sylvan Esso, and Little Dragon."',
   '"...worthy of inclusion in a Terrence Malick film."',
-  '"If there weren\'t already a song called Feel Good Hit of the Summer, this would be called that."',
   '"...bridges the sonic gap between Thundercat and Men I Trust."',
   '"...music for breezy climes and sunny days."',
   '"10/10 would jam."',
