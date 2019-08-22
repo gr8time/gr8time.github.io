@@ -54,7 +54,13 @@ var pressQuotes = [
   '"For once i wasn’t disappointed in youtube recommended."',
   '"This is good, really good, the sound and the video, yes yes yes."',
   '"This is an absolute BANGER i\'m quaking."',
-  '"This a full bodied bop, gang."'
+  '"This a full bodied bop, gang."',
+  '"This that song to start playing as soon as you get on the freeway out your town."',
+  '"This is a heavenly piece of art and I\'m so glad I stumbled upon it."',
+  '"ANOTHER great song by gr8™"',
+  '"wow I love this"',
+  '"<3 I can\'t stop listening to"',
+  '"great percussive samples, great album, GREAT TIME."'
 
 ];
 
