@@ -1309,9 +1309,9 @@ div.bit-event {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 19s;
+    -webkit-animation-duration: 11s;
     animation-name: fade;
-    animation-duration: 19s;
+    animation-duration: 11s;
     margin: auto;
 }
 
