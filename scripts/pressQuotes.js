@@ -60,7 +60,9 @@ var pressQuotes = [
   '"ANOTHER great song by gr8™"',
   '"wow I love this"',
   '"<3 I can\'t stop listening to"',
-  '"great percussive samples, great album, GREAT TIME."'
+  '"great percussive samples, great album, GREAT TIME."',
+  '"I think, i fall in love with your music guys"',
+  '"Naise song.. really love the song.whatalovelydaye"'
 
 ];
 
