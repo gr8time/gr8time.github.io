@@ -534,6 +534,10 @@ hr.light-100 {
 	-webkit-filter: drop-shadow(5px 5px 4px #444422a1);
 	filter: drop-shadow(5px 5px 4px #444422a1);
 }
+.drop-shadow-light {
+	-webkit-filter: drop-shadow(3px 3px 4px rgba(68,68,34,0.4));
+	filter: drop-shadow(3px 3px 4px rgba(68,68,34,0.4));
+}
 
 /* colors */
 
