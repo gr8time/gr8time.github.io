@@ -9,7 +9,7 @@ document.getElementById("passcode").onclick = function passcode(){
     while (turns > 0) {
     var guess = prompt("Oh no! Somebody's hacking into the mainframe to steal the serverside scripting log! Quick, enter the passcode to sign into the onboard compiler and parse those f*ckers out! \n\nhint: GREAT");
     if (!guess) break;
-    if (guess == "TIME" || guess == "time" || guess == "Time") {
+    if (guess == "TIME" || guess == "time" || guess == "Time" || guess == "tm" || guess == "TM" || guess == "Tm" ) {
         alert('Conglaturation! You stopped the hackers!');
         break;
     }else {
