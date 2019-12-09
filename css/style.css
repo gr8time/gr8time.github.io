@@ -111,6 +111,9 @@ a.nostyle:link, a.nostyle:visited {
 	text-align: center;
 }
 
+.bold{
+	font-weight: bold;
+}
 .carousel-inner img {
 	width: 100%;
 	height: 100%;
