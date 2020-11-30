@@ -197,6 +197,19 @@ a.nostyle:link, a.nostyle:visited {
 	/* animation: buttonPulse 7s ease-in-out 1s infinite;  */
 }
 
+#homerunLCD:hover {
+	opacity: .8;
+	transition: .5s ease;
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01);
+	backface-visibility: hidden;
+}
+
+
+img.LCD {
+	border-radius: .5vw;
+}
+
 #buttonPulseDiv {
 	position: absolute;
 	z-index: -1;
@@ -847,6 +860,8 @@ body {
 	transform: scale(1.03);
 	z-index: 37;
 } */
+
+
 
 @-webkit-keyframes zindex {
 	0%, 100% {
