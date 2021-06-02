@@ -1297,6 +1297,13 @@ div.bit-event {
 	background-color: rgba(52, 58, 64, .95);
 }
 
+.epk a{
+	font-weight: bold;
+}
+.epk a:hover{
+	color:#f36f98;
+}
+
 .pressInner {
 	background-color: white;
 	color: rgb(52, 58, 64);
@@ -1306,6 +1313,16 @@ div.bit-event {
 
 .text-stats-intro {
 	font-size: calc((.6vw + 1.2vh + .1vmin)*1);
+}
+
+.text-epk-intro {
+	font-size: calc((.6vw + 1.2vh + .1vmin)*.75);
+}
+
+#epk {
+	border-style:solid;
+	border-color: #f36f98;
+	border-width: calc((.6vw + 1.2vh + .1vmin)*1.5);
 }
 
 #photos {
