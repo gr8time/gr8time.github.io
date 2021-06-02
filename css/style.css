@@ -1296,7 +1296,9 @@ div.bit-event {
 	color: white;
 	background-color: rgba(52, 58, 64, .95);
 }
-
+.epk{
+	caret-color: transparent;
+}
 .epk a{
 	font-weight: bold;
 }
@@ -1307,6 +1309,10 @@ div.bit-event {
 
 .epk .h1{
 	font-size: calc((.6vw + 1.2vh + .1vmin)*2)
+}
+
+.epk .h2{
+	font-size: calc((.6vw + 1.2vh + .1vmin)*1.5)
 }
 .pressInner {
 	background-color: white;
