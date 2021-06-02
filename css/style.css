@@ -1329,6 +1329,10 @@ div.bit-event {
 	font-size: calc((.6vw + 1.2vh + .1vmin)*.75);
 }
 
+.text-epk-contact {
+	font-size: calc((.6vw + 1.2vh + .1vmin)*1);
+}
+
 #epk {
 	border-style:solid;
 	border-color: #f36f98;
