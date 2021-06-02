@@ -1300,10 +1300,14 @@ div.bit-event {
 .epk a{
 	font-weight: bold;
 }
+
 .epk a:hover{
 	color:#f36f98;
 }
 
+.epk .h1{
+	font-size: calc((.6vw + 1.2vh + .1vmin)*2)
+}
 .pressInner {
 	background-color: white;
 	color: rgb(52, 58, 64);
