@@ -788,6 +788,7 @@ body {
 	background-color: white;
 	background-size: contain;
 	background-repeat: repeat;
+	caret-color: transparent;
 }
 
 .p-jumbo {
@@ -954,6 +955,11 @@ body {
 .mw25 {
 	max-width: 25%;
 }
+
+.mw669 {
+	max-width: 669px;
+}
+
 .w-33 {
 	width: 33%;
 }
