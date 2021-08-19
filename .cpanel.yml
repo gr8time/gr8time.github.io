@@ -15,5 +15,6 @@ deployment:
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/merch.html $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/stats.html $DEPLOYPATH
     - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/epk.html $DEPLOYPATH
+    - /bin/cp -R /home3/greatti6/repositories/gr8timehub.io.git/vol2epk.html $DEPLOYPATH
 
     
