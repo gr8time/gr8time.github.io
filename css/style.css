@@ -1342,6 +1342,21 @@ div.bit-event {
 	font-size: calc((.6vw + 1.2vh + .1vmin)*1);
 }
 
+.text-epk-press {
+	text-align: left;
+	font-size: calc((.8vw + 1.2vh + .1vmin)*.7);
+}
+.col-epk-press-pink{
+	border-style: solid;
+	border-color: #f36f98;
+}
+.col-epk-press-pink:hover{
+	background-color:#f36f98aa;
+}
+.col-epk-press-pink a:hover{
+	color: #8ad3e0;
+}
+
 #epk {
 	border-style:solid;
 	border-color: #f36f98;
